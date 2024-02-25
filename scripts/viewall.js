@@ -11,7 +11,7 @@ let products = JSON.parse(localStorage.getItem("products")) || []
 var productData = []
 sorting.addEventListener("change", sorted)
 
-fetch("https://sleepy-puce-greyhound.cyclic.app/products?_page=1&_limit=20")//?_page=3&_limit=10
+fetch("https://courageous-tan-skirt.cyclic.app/products?_page=1&_limit=20")//?_page=3&_limit=10
     .then((res) => {
         return res.json();
     })
